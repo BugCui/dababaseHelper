@@ -11,9 +11,13 @@ import javafx.stage.Stage;
 public class MainApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent login = FXMLLoader.load(getClass().getResource("./ui/main.fxml"));
+        Parent login = FXMLLoader.load(getClass().getResource("ui/main.fxml"));
         primaryStage.setTitle("数据库表结构转Word");
         primaryStage.setScene(new Scene(login));
         primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }

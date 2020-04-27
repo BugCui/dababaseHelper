@@ -72,7 +72,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.msw.java.Login</mainClass>
+                            <mainClass>com.coinker.databaseHelper.MainApplication</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Class-Path>.</Class-Path>
@@ -96,7 +96,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.msw.java.Login</mainClass>
+                            <mainClass>com.coinker.databaseHelper.MainApplication</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
